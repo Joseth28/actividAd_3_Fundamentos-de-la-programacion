@@ -1,0 +1,19 @@
+descripcion del problema: crear un simulador de señales utilizando la funcion de dencidad de probabilidad (fdp) de la campana de gauss distrubucion normal
+
+entrada: 
+- la entrada de este algoritmo es la frecuencia de la señal. 
+
+salida:
+-la salida esperada del algoritmo es un mensaje indicando si la señal pasa o es bloqueada por el filtro.
+
+definicion de parametros: se definen los parametros de la distribicion normal, como la media (mu)la desviacion estandar (sigma), asi co el lumbral de probabilidad acomulada (umbral)
+##los declaro como constantes 
+
+proceso:
+-se define la funcion de denciada de probabilidad ( fdp) de la campana de gauss.
+-se define la probabilida sumando la fdp para todas las frecuencias desde 0
+-se compara la probabilidad acomulada con el umbral del 30%.
+
+R.
+-por recomendacion en este caso utlizo un paso de 1Hz para las interaciones 
+ -se asume asume que la frecuencia de la señal proporcionada es un valor valido no negativo 

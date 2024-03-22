@@ -1,0 +1,26 @@
+program simulador_filtrador_de_señales
+
+//crear un simulador de filtardo de señales utilizando la funcion de denciiadad de probabilidad (fdp) de la campana de gauss distribucion normal 
+
+
+Start
+//declaracion de variables 
+  Declare CONSTANT mu <- 1000
+  Declare CONSTANT sigma <- 300
+  Declare CONSTANT umbral <- 0.3
+
+  display "ingrese la frecuencia"  
+  input frecuencia
+
+  probabilidad acomulada <- 0
+    for f = to frecuencia_señal then 
+       resultado <- (mu * sqrt(2 * pi))) * exponencial(-(1/2) * ((f - sigma) / mu)^2 ) 
+    end for
+
+
+    if frecuencia_acomulada(frencuencia_señal) > umbral then
+       print "la señal pasa por el filtro."
+    else   
+       print "la señal es bloqueada por el filtro"
+     end if
+ End

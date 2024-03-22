@@ -1,0 +1,36 @@
+prueba 1:
+
+iniciar frecuencia 
+
+frecuencia de señal = 300
+mu = 1000
+sigma = 300
+umbral = 0.3
+resultado: esta bloqueado 
+
+
+prueba 2:
+
+
+iniciar frecuencia 
+  
+frecuencia de la señal = 2000
+mu = 1000
+sigma = 300
+umbral = 0.3 
+resultado: si pasa 
+
+
+
+preuba 3 
+
+iniciar frecuemcia 
+
+frecuencia de la señal = 841
+mu = 1000
+sigma = 300
+umbral = 0.3
+resultado: si pasa
+
+
+##para que deje de estar bloqueado y pueda pasar el filtro la frecuencia de la señal tiene que ser 814##
